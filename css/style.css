@@ -1,17 +1,21 @@
-*{
+html body {
+    padding: 0;
+    margin: 0;
     background-color: black;
-    padding: 0%;
-    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 
+.box {
+    background-color: white;
+    height: 80%;
+    width: 70%;
+}
 
-
-.box{
-    position: relative;
-    top: 50%;
-    left: 50%; 
-    height: 30%;
-    width: 40%;
-    background-color: aliceblue;
+img {
+    height: 80%;
+    width: 50%;
 }
